@@ -1,0 +1,43 @@
+site_name: Automatisation de tâches
+site_description: Matériel de cours pour l'automatisation de tâches - Cégep Limoilou
+site_author: François Duguay-Giguère
+
+theme:
+  name: material
+  language: fr
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+nav:
+  - Accueil: index.md
+  - Annonces: annonces.md
+  - Plan de cours: plan-de-cours.md
+  - Notes de cours:
+    - Semaine 1 - Introduction et concepts: notes/semaine-01.md
+    - Semaine 2 - Bash et gestion de fichiers: notes/semaine-02.md
+    - Semaine 3 - Bash avancé: notes/semaine-03.md
+    - Semaine 4 - Introduction à PowerShell: notes/semaine-04.md
+    - Semaine 5 - PowerShell et administration: notes/semaine-05.md
+    - Semaine 6 - Révision et pratique: notes/semaine-06.md
+    - Semaine 7 - Examen intra: notes/semaine-07.md
+    - Semaine 8 - Python pour l'administration: notes/semaine-08.md
+    - Semaine 9 - Python et requêtes réseau: notes/semaine-09.md
+    - Semaine 10 - Automatisation réseau: notes/semaine-10.md
+    - Semaine 11 - Conteneurisation (Docker): notes/semaine-11.md
+    - Semaine 12 - Docker Compose: notes/semaine-12.md
+    - Semaine 13 - CI/CD et GitHub Actions: notes/semaine-13.md
+    - Semaine 14 - Révision finale: notes/semaine-14.md
+    - Semaine 15 - Examen final: notes/semaine-15.md
+  - Exemples de code: exemples/index.md
+  - Ressources complémentaires: ressources.md
